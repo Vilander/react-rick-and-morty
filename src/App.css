@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'GetSchwifty';
+  src: url('get_schwifty.ttf') format('truetype'); /* Substitua pelo caminho correto */
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+Borda branca pequena
+Cantos arredondados
+Sombra branca bem preenchida, tamanho médio, na parte de baixo e na direita
+Espaçamento interno
+ 
+Cantos arredondados na imagem
+*/
+body {
+  background-color: #252525
+}
+
+.card {
+  width: 20%;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 5px 6px 0 #ffffff69;
+  padding: 2rem;
+  margin:0 auto;
+}
+
+.card-title {
+  color: #fff;
+  border-left: 5px solid #10ff30eb;
+  border-radius: 0.1rem;
+}
+.card:hover{
+  cursor: pointer;
+}
+
+.card-tag{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff9b;
+  padding: 10px;
+  border-radius: 0.7rem;
+  margin: 0.5rem;
+  display: inline-block;
+  color: #000000;
+  font-weight: bold;
+  
+
+}
+
+.card img {
+  border-radius: 2rem;
+}
+
+.card-info{
+  color: #000000;
+  background-color: #fff;
+  display: flex;
+  border-radius: 5rem;
+  gap: 5rem;
+}
