@@ -1,0 +1,18 @@
+Inicialização react:
+
+Instalar vite -> npm install vite -g
+
+Instalar dependencias ->npm install tailwind
+desinstalar dependencias -> npm uninstall tailwind
+
+iniciando react:
+
+=> criar repositório
+=> abrir terminal vscode
+=> trocar powersheell por cmd
+=> npm create vite@latest .
+=> ignore and continue
+=> react
+=> Javascript
+=> npm install
+=> npm run dev
